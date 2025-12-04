@@ -9,10 +9,13 @@
     justify-content: center;
     align-items: center;
 }
-.contents{
-
+button{
+    color: black;
+    background-color: rgb(241, 121, 121);
+    border-radius: 30%;
+    padding: 10px;
 }
 #display{
-    margin-left: 65px;
+    margin-left: 75px;
     font-size: 70px;
 }
