@@ -1,4 +1,4 @@
-  let counter=0;
+  let counter=100;
         let out=null;
         var display=document.getElementById("display");
         const playFn=()=>{
@@ -6,14 +6,14 @@
              //   return;
           out= setInterval(()=>{
                  display.innerHTML=counter;
-            counter+=5;
+            counter--;
              },1000);    
     }
     
     function stop(){
          clearInterval(out);
          out=null;
-         counter=0;
+         counter=100;
          display.innerHTML=counter;
     }
     function pause(){

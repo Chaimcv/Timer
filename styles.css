@@ -16,6 +16,8 @@ button{
     padding: 10px;
 }
 #display{
-    margin-left: 72px;
+
     font-size: 70px;
+    display: flex;
+    justify-content: center;
 }
