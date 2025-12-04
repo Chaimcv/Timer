@@ -6,7 +6,7 @@
              //   return;
           out= setInterval(()=>{
                  display.innerHTML=counter;
-            counter++
+            counter+=5;
              },1000);    
     }
     
